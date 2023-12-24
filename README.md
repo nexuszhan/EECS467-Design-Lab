@@ -1,5 +1,7 @@
 This repo contains the source files of the design project of EECS467. 
+
 The project, inspired by RTS games, develops a multi-agent robot system that can be controlled by laser pointers. Users can circle a group of robots to activate them and then shoot a target point as the destination for them. The robots we use are Mbots provided by UMich and each of them has a Raspberry Pi 4B and an RPi Lidar. 
+
 The computer vision algorithm for detecting laser points is completed with Intel RealSense Depth Camera and OpenCV package. The depth camera is employed to obtain the distance of target point. The pipeline of the CV algorithm is briefly shown in the following diagram. 
 
 <div align=center>
